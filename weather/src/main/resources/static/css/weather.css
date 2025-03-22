@@ -1,0 +1,75 @@
+
+body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    background:linear-gradient(to right, #74ebd5,rgb(60, 191, 214));
+    padding: 20px;
+    max-width: 500px;
+}
+
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #000000;
+}
+
+
+.btn-primary {
+    background:rgb(159, 56, 228);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background:rgb(204, 102, 245);
+}
+
+
+.weather-icon {
+    font-size: 4rem;
+    color: #ffcc00;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
